@@ -45,8 +45,9 @@ public class Edge {
         this.weight = weight;
     }
 
-    
-    
-    
-    
+    @Override
+    public String toString() {
+        return "\n Edge [origin=" + start.getData() + ", destination=" + end.getData() + ", distance="
+                + weight + "]";
+    }
 }

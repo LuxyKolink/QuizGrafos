@@ -73,13 +73,19 @@ public class Graph {
             }
         }
     return null;
-  }
+    }
   
+    /*
     public void print(){
         
         for(Vertex v: this.vertices){
-            v.print(isWeighted);
+            System.out.println(isWeighted);
         }
     }
+    */
     
+    @Override
+    public String toString() {
+        return "Graph [vertex=" + vertices + "]";
+    }
 }

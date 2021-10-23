@@ -42,5 +42,8 @@ public class Vertex {
         this.data = data;
     }
     
-    
+    @Override
+    public String toString() {
+        return "\n \tVertex [city=" + data + ", edges=" + edges + "]";
+    }
 }
